@@ -7,6 +7,8 @@ const instances = data.split("\n").map(line => {
 	return {formatId, typeName, classDate, startTime,durationHours, durationMinutes}
 })
 
+console.log("UPDATE THIS SCRIPT to set signup min/max!")
+process.exit(1)
 
 console.log("declare");
 console.log("  l_instance_id number;");
